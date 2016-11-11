@@ -976,7 +976,7 @@ RUN sudo touch /capabilities.json \
 #=====================================================
 # Meta JSON file to hold commit info of current build
 #=====================================================
-COPY scm-source.json /
+#COPY scm-source.json /
 # Ensure the file is up-to-date else you should update it by running
 #  ./host-scripts/gen-scm-source.sh
 # on the host machine
